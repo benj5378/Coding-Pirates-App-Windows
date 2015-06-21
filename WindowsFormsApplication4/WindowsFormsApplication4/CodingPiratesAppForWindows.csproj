@@ -13,6 +13,25 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Benjamin\Documents\vs\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://lego-ev3.com/codingpirates/vs/</InstallUrl>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -33,6 +52,50 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>2EED2C218B32AC16F411DA979FE44E568DAE2883</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>CodingPiratesAppForWindows_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\WindowsFormsApplication4.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\WindowsFormsApplication4.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,114 +109,123 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AfdelingenHellerup.cs">
+    <Compile Include="Forms\AfdelingenDIKU.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AfdelingenHellerup.Designer.cs">
+    <Compile Include="Forms\AfdelingenDIKU.Designer.cs">
+      <DependentUpon>AfdelingenDIKU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AfdelingenITU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AfdelingenITU.Designer.cs">
+      <DependentUpon>AfdelingenITU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AfdelingenHellerup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AfdelingenHellerup.Designer.cs">
       <DependentUpon>AfdelingenHellerup.cs</DependentUpon>
     </Compile>
-    <Compile Include="Afdelinger.cs">
+    <Compile Include="Forms\Afdelinger.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Afdelinger.Designer.cs">
+    <Compile Include="Forms\Afdelinger.Designer.cs">
       <DependentUpon>Afdelinger.cs</DependentUpon>
     </Compile>
-    <Compile Include="AfdelingerIFyn.cs">
+    <Compile Include="Forms\AfdelingerIRegionNordjylland.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AfdelingerIFyn.Designer.cs">
-      <DependentUpon>AfdelingerIFyn.cs</DependentUpon>
+    <Compile Include="Forms\AfdelingerIRegionNordjylland.Designer.cs">
+      <DependentUpon>AfdelingerIRegionNordjylland.cs</DependentUpon>
     </Compile>
-    <Compile Include="AfdelingerIJylland.cs">
+    <Compile Include="Forms\AfdelingerIRegionHovedstaden.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AfdelingerIJylland.Designer.cs">
-      <DependentUpon>AfdelingerIJylland.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AfdelingerIRegionHovedstaden.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AfdelingerIRegionHovedstaden.Designer.cs">
+    <Compile Include="Forms\AfdelingerIRegionHovedstaden.Designer.cs">
       <DependentUpon>AfdelingerIRegionHovedstaden.cs</DependentUpon>
     </Compile>
-    <Compile Include="AfdelingerIRegionSjælland.cs">
+    <Compile Include="Forms\AfdelingerIRegionMidtjylland.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AfdelingerIRegionSjælland.Designer.cs">
+    <Compile Include="Forms\AfdelingerIRegionMidtjylland.Designer.cs">
+      <DependentUpon>AfdelingerIRegionMidtjylland.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AfdelingerIRegionSjælland.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AfdelingerIRegionSjælland.Designer.cs">
       <DependentUpon>AfdelingerIRegionSjælland.cs</DependentUpon>
     </Compile>
-    <Compile Include="AfdelingerIRegionSydDanmark.cs">
+    <Compile Include="Forms\AfdelingerIRegionSydDanmark.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AfdelingerIRegionSydDanmark.Designer.cs">
+    <Compile Include="Forms\AfdelingerIRegionSydDanmark.Designer.cs">
       <DependentUpon>AfdelingerIRegionSydDanmark.cs</DependentUpon>
     </Compile>
-    <Compile Include="AfdelingerISjælland.cs">
+    <Compile Include="Forms\Credits.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AfdelingerISjælland.Designer.cs">
-      <DependentUpon>AfdelingerISjælland.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Credits.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Credits.Designer.cs">
+    <Compile Include="Forms\Credits.Designer.cs">
       <DependentUpon>Credits.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frivillige.cs">
+    <Compile Include="Forms\Frivillige.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frivillige.Designer.cs">
+    <Compile Include="Forms\Frivillige.Designer.cs">
       <DependentUpon>Frivillige.cs</DependentUpon>
     </Compile>
-    <Compile Include="Main.cs">
+    <Compile Include="Forms\Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main.Designer.cs">
+    <Compile Include="Forms\Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="OmCodingPirates.cs">
+    <Compile Include="Forms\OmCodingPirates.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OmCodingPirates.Designer.cs">
+    <Compile Include="Forms\OmCodingPirates.Designer.cs">
       <DependentUpon>OmCodingPirates.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AfdelingenHellerup.resx">
+    <EmbeddedResource Include="Forms\AfdelingenDIKU.resx">
+      <DependentUpon>AfdelingenDIKU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AfdelingenHellerup.resx">
       <DependentUpon>AfdelingenHellerup.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Afdelinger.resx">
+    <EmbeddedResource Include="Forms\AfdelingenITU.resx">
+      <DependentUpon>AfdelingenITU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Afdelinger.resx">
       <DependentUpon>Afdelinger.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AfdelingerIFyn.resx">
-      <DependentUpon>AfdelingerIFyn.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AfdelingerIJylland.resx">
-      <DependentUpon>AfdelingerIJylland.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AfdelingerIRegionHovedstaden.resx">
+    <EmbeddedResource Include="Forms\AfdelingerIRegionHovedstaden.resx">
       <DependentUpon>AfdelingerIRegionHovedstaden.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AfdelingerIRegionSjælland.resx">
+    <EmbeddedResource Include="Forms\AfdelingerIRegionMidtjylland.resx">
+      <DependentUpon>AfdelingerIRegionMidtjylland.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AfdelingerIRegionNordjylland.resx">
+      <DependentUpon>AfdelingerIRegionNordjylland.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AfdelingerIRegionSjælland.resx">
       <DependentUpon>AfdelingerIRegionSjælland.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AfdelingerIRegionSydDanmark.resx">
+    <EmbeddedResource Include="Forms\AfdelingerIRegionSydDanmark.resx">
       <DependentUpon>AfdelingerIRegionSydDanmark.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AfdelingerISjælland.resx">
-      <DependentUpon>AfdelingerISjælland.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Credits.resx">
+    <EmbeddedResource Include="Forms\Credits.resx">
       <DependentUpon>Credits.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frivillige.resx">
+    <EmbeddedResource Include="Forms\Frivillige.resx">
       <DependentUpon>Frivillige.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main.resx">
+    <EmbeddedResource Include="Forms\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OmCodingPirates.resx">
+    <EmbeddedResource Include="Forms\OmCodingPirates.resx">
       <DependentUpon>OmCodingPirates.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -165,6 +237,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="CodingPiratesAppForWindows_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -174,6 +247,28 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

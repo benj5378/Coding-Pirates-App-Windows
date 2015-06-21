@@ -15,3 +15,25 @@ C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\WindowsFormsApplication4
 C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\WindowsFormsApplication4.AfdelingerIFyn.resources
 C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\WindowsFormsApplication4.AfdelingerIJylland.resources
 C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\WindowsFormsApplication4.AfdelingerIRegionSjælland.resources
+C:\Users\Benjamin\Documents\GitHub\Coding-Pirates-App-Windows\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\WindowsFormsApplication4.exe
+C:\Users\Benjamin\Documents\GitHub\Coding-Pirates-App-Windows\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\WindowsFormsApplication4.pdb
+C:\Users\Benjamin\Documents\GitHub\Coding-Pirates-App-Windows\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe
+C:\Users\Benjamin\Documents\GitHub\Coding-Pirates-App-Windows\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.pdb
+C:\Users\Benjamin\Documents\GitHub\Coding-Pirates-App-Windows\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\WindowsFormsApplication4.AfdelingenHellerup.resources
+C:\Users\Benjamin\Documents\GitHub\Coding-Pirates-App-Windows\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\WindowsFormsApplication4.Afdelinger.resources
+C:\Users\Benjamin\Documents\GitHub\Coding-Pirates-App-Windows\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\WindowsFormsApplication4.AfdelingerIFyn.resources
+C:\Users\Benjamin\Documents\GitHub\Coding-Pirates-App-Windows\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\WindowsFormsApplication4.AfdelingerIJylland.resources
+C:\Users\Benjamin\Documents\GitHub\Coding-Pirates-App-Windows\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\WindowsFormsApplication4.AfdelingerIRegionHovedstaden.resources
+C:\Users\Benjamin\Documents\GitHub\Coding-Pirates-App-Windows\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\WindowsFormsApplication4.AfdelingerIRegionSjælland.resources
+C:\Users\Benjamin\Documents\GitHub\Coding-Pirates-App-Windows\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\WindowsFormsApplication4.AfdelingerIRegionSydDanmark.resources
+C:\Users\Benjamin\Documents\GitHub\Coding-Pirates-App-Windows\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\WindowsFormsApplication4.AfdelingerISjælland.resources
+C:\Users\Benjamin\Documents\GitHub\Coding-Pirates-App-Windows\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\WindowsFormsApplication4.Credits.resources
+C:\Users\Benjamin\Documents\GitHub\Coding-Pirates-App-Windows\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\WindowsFormsApplication4.Frivillige.resources
+C:\Users\Benjamin\Documents\GitHub\Coding-Pirates-App-Windows\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\WindowsFormsApplication4.Main.resources
+C:\Users\Benjamin\Documents\GitHub\Coding-Pirates-App-Windows\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\WindowsFormsApplication4.OmCodingPirates.resources
+C:\Users\Benjamin\Documents\GitHub\Coding-Pirates-App-Windows\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\WindowsFormsApplication4.Properties.Resources.resources
+C:\Users\Benjamin\Documents\GitHub\Coding-Pirates-App-Windows\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\CodingPiratesAppForWindows.csproj.GenerateResource.Cache
+C:\Users\Benjamin\Documents\GitHub\Coding-Pirates-App-Windows\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe.manifest
+C:\Users\Benjamin\Documents\GitHub\Coding-Pirates-App-Windows\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.application
+C:\Users\Benjamin\Documents\GitHub\Coding-Pirates-App-Windows\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\WindowsFormsApplication4.exe.manifest
+C:\Users\Benjamin\Documents\GitHub\Coding-Pirates-App-Windows\WindowsFormsApplication4\WindowsFormsApplication4\obj\x86\Debug\WindowsFormsApplication4.application
